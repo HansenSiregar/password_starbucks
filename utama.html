@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbuck</title>
+    <link rel="icon" href="img/starbucks.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div id="home" class="container-fluid p-5 bg-success text-center text-white">
+        
+        <h1 style="font-family: stoked;">STARBUCK</h1>
+        <img src="img/starbucks.png" alt="starbucks" class="starbucks-logo"> 
+        <p style="font-style: oblique;">segelas kopi yang bercerita kepadaku bahwa yang hitam tak selalu kotor dan yang pahit tak selalu menyedihkan</p>
+        
+      </div>
+
+      
+
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top"  style="background-color: #128d5a; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="#" style="font-family: 'Courier New', Courier, monospace;">
+            <img src="img/starbucks.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top me-2">
+            Starbucks
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="team.html">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cek Promo
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#promo">Promo</a></li>
+                  <li><a class="dropdown-item" href="#terdekat">Terdekat</a></li>
+                  <li><a class="dropdown-item" href="#extra">Extra Promo</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cari kopi..." aria-label="Search">
+              <button class="btn btn-light text-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      
+      
+      
+
+      <div class="container my-5">
+        <div class="card shadow-lg border-0">
+          <div class="card-body">
+            <h1 id="about" class="mb-4 text-center fw-bold" style="font-family: 'Georgia', serif;">
+              <img src="img/starbucks.png" alt="Logo Starbucks" width="50" class="me-2">
+              Tentang Starbucks
+            </h1>
+            <p class="fs-5 text-muted text-justify">
+              <i class="bi bi-cup-hot-fill text-success me-2"></i>
+              <strong>Starbucks</strong> adalah merek global asal Amerika Serikat yang dikenal sebagai penyedia kopi premium dan pengalaman kafe yang nyaman. Starbucks menawarkan berbagai minuman berbasis kopi, teh, makanan ringan, serta produk ritel, dengan fokus pada kualitas bahan, inovasi menu, dan pelayanan pelanggan.
+            </p>
+            <p class="fs-5 text-muted text-justify">
+              <i class="bi bi-globe-americas text-success me-2"></i>
+              Selain itu, Starbucks juga menekankan nilai-nilai keberlanjutan, komunitas, dan suasana hangat yang mendorong pelanggan untuk menjadikan gerainya sebagai <em>“tempat ketiga”</em> setelah rumah dan kantor.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner text-center" >
+          <div class="carousel-item active">
+            <img src="starbuck_lanscape.jpeg" class=" w-100 h-10" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="starbuck_lanschape2.jpeg" class=" w-100 h-10" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="starbuck_landscape3.jpeg" class=" w-100 h-10" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br><br>
+      <div class="container my-5">
+        <h2 class="text-center mb-4" style="font-family:'Georgia', serif; color: #2e7d32;">Menu Kami</h2>
+        <div class="row g-4">
+          
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img src="img/starbuck (1).jpeg" class="card-img-top" alt="Brewed Coffee">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Brewed Coffee</h5>
+                <p class="card-text text-muted">Kopi tak pernah pilih kasih — semua disambut dengan hangat di setiap teguknya.</p>
+                <a href="#" class="btn btn-success mt-auto">Tambah Pesanan</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img src="img/starbuck (9).jpeg" class="card-img-top" alt="Coffee Senja">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Coffee Senja</h5>
+                <p class="card-text text-muted">Senja dan kopi adalah sepasang kata yang saling melengkapi — penuh jeda, penuh makna.</p>
+                <a href="#" class="btn btn-success mt-auto">Tambah Pesanan</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img src="img/starbuck (2).jpeg" class="card-img-top" alt="Espresso-Based Drinks">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Espresso-Based Drinks</h5>
+                <p class="card-text text-muted">Satu niat baik dan secangkir espresso — kombinasi untuk mimpi besar.</p>
+                <a href="#" class="btn btn-success mt-auto">Tambah Pesanan</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 4 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img src="img/starbuck (3).jpeg" class="card-img-top" alt="Frappuccino">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Frappuccino</h5>
+                <p class="card-text text-muted">Ketika kopi membeku, rindu pun jadi segar. Frappuccino untuk hari-hari hangatmu.</p>
+                <a href="#" class="btn btn-success mt-auto">Tambah Pesanan</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 5 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img src="img/starbuck (4).jpeg" class="card-img-top" alt="Big Coffee">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Big Coffee</h5>
+                <p class="card-text text-muted">Secangkir besar untuk rindu yang tak kunjung reda. Aromanya peluk, rasanya pelipur.</p>
+                <a href="#" class="btn btn-success mt-auto">Tambah Pesanan</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 6 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img src="img/starbuck (5).jpeg" class="card-img-top" alt="Coffee Ice">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Coffee Ice</h5>
+                <p class="card-text text-muted">Dingin menyegarkan, seperti jeda dari panasnya rutinitas — Coffee Ice siap temani kamu.</p>
+                <a href="#" class="btn btn-success mt-auto">Tambah Pesanan</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 7 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img src="img/starbuck (6).jpeg" class="card-img-top" alt="Coffee Terdekat">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Coffee Terdekat</h5>
+                <p class="card-text text-muted">Temui rasa nyaman di setiap sudut kota — kopi terbaik selalu terasa dekat.</p>
+                <a href="#" class="btn btn-success mt-auto">Tambah Pesanan</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 8 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img src="img/starbuck (7).jpeg" class="card-img-top" alt="Coffee Kayaknya">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Coffee Kayaknya</h5>
+                <p class="card-text text-muted">Kadang kamu nggak yakin butuh kopi, tapi kopi selalu yakin kamu butuh dia.</p>
+                <a href="#" class="btn btn-success mt-auto">Tambah Pesanan</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 9 -->
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <img src="img/starbuck (8).jpeg" class="card-img-top" alt="Coffee Lagi">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Coffee Lagi</h5>
+                <p class="card-text text-muted">Ada yang bilang cukup satu, tapi yang paham tahu — satu cangkir tak pernah cukup.</p>
+                <a href="#" class="btn btn-success mt-auto">Tambah Pesanan</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+      <div class="container mb-5">
+        <div class="card shadow-lg border-0">
+          <div class="card-body">
+            <h2 class="text-center mb-4 fw-bold"><i class="bi bi-envelope-paper-heart-fill text-success me-2"></i>Hubungi Kami</h2>
+            <form action="action_page.php">
+              <div class="mb-3">
+                <label for="fname" class="form-label">Nama</label>
+                <div class="input-group">
+                  <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                  <input type="text" id="fname" name="firstname" class="form-control" placeholder="Nama lengkap">
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="lname" class="form-label">Email</label>
+                <div class="input-group">
+                  <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                  <input type="email" id="lname" name="lastname" class="form-control" placeholder="nama@email.com">
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="subject" class="form-label">Pesan</label>
+                <div class="input-group">
+                  <span class="input-group-text"><i class="bi bi-chat-left-dots-fill"></i></span>
+                  <textarea id="subject" name="subject" class="form-control" placeholder="Tulis pesanmu di sini..." style="height: 200px;"></textarea>
+                </div>
+              </div>
+      
+              <div class="text-center">
+                <button type="submit" class="btn btn-success px-4 py-2">
+                  <i class="bi bi-send-fill me-2"></i>Kirim Pesan
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+
+
+      
+      
+      
+
+
+      
+      
+      <footer id="contact" class="bg-success text-white pt-4 pb-3">
+        <div class="container text-center">
+          <img src="img/starbucks.png" alt="Starbuck Logo" class="mb-3" style="width: 80px;">
+          
+          <p class="mb-1">&copy; 2025 Kelompok 7</p>
+          <p><a href="mailto:kelompok7@gmail.com" class="text-decoration-none text-white">kelompok7@gmail.com</a></p>
+      
+          <div class="d-flex justify-content-center gap-3 my-3">
+            <a href="https://wa.me/6285762859150" target="_blank" class="text-white fs-4">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/starbucks?igsh=amtxbzJzNXU0NG5w" target="_blank" class="text-white fs-4">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://tiktok.com/@inihanskece" target="_blank" class="text-white fs-4">
+              <i class="bi bi-tiktok"></i>
+            </a>
+          </div>
+      
+          <small class="text-white-50">“Terima kasih sudah mampir ke kedai kopi kami.”</small>
+        </div>
+      </footer>
+      
+      
+      
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
