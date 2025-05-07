@@ -1,0 +1,101 @@
+.whatsapp-logo,
+    .tiktok-logo,
+    .instagram-logo {
+      position: absolute;
+      width: 30px;
+      height: auto;
+      bottom: 20px;
+    }
+
+    .whatsapp-logo {
+      left: 20px;
+    }
+
+    .tiktok-logo {
+      left: 60px;
+    }
+
+    .instagram-logo {
+      left: 100px;
+    }
+    .navbar{
+      position: sticky;
+      top: 0;
+
+    }
+    .card:hover {
+      transform: scale(1.02);
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    .card-title {
+      color: #2e7d32;
+    }
+    .btn-success {
+      background-color: #2e7d32;
+      border: none;
+    }
+    .btn-success:hover {
+      background-color: #256d29;
+    }
+
+    .starbuck-logo {
+      position: absolute;
+      left: 30px;
+      bottom: 90px;
+      width: 100px;
+      height: auto;
+    }
+
+    .starbucks-logo {
+      width: 150px;
+      height: auto;
+    }
+
+    .footer-container {
+      position: relative;
+      padding: 5rem;
+      background-color: #198754;
+      color: white;
+      text-align: center;
+    }
+
+    .container-about {
+      width: 100%;
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #f9f9f9;
+      padding: 30px 20px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      font-family: 'Georgia', 'Times New Roman', Times, serif;
+      line-height: 1.8;
+      color: #333;
+      box-sizing: border-box;
+    }
+    nav{
+      position: sticky;
+    }
+
+    .container-about h1 {
+      font-size: 32px;
+      color: #2e2e2e;
+      margin-bottom: 20px;
+      border-left: 6px solid #00704A;
+      padding-left: 15px;
+    }
+
+    .container-about p {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    @media (max-width: 600px) {
+      .container-about h1 {
+        font-size: 26px;
+      }
+
+      .container-about p {
+        font-size: 16px;
+      }
+    }
